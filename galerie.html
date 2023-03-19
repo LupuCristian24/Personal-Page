@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta charset="utf-8">
+		<title>Lupu Ioan-Cristian</title>
+		<link rel="shortcut icon" type="image/png" href="images/logo.jpg">
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+		<link rel="stylesheet" href="css/lightboxgallery-min.css">
+  		<link rel="stylesheet" href="css/style2.css">
+   		<link rel="stylesheet" href="style.css">
+		
+<!--
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  		<script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+-->
+	</head>
+	
+	<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  		<div class="container-fluid">
+<!--      		<img src="Images/logo.jpg" alt="Avatar Logo" style="width:40px;" class="rounded-pill"> -->
+<!--			<a class="navbar-brand" href="index_ro.html"><img src="Images/logo.jpg" alt="Avatar Logo" style="width:40px;" class="rounded-pill"></a>-->
+			<a class="navbar-brand" href="index_ro.html"><img src="Images/logo.jpg" alt="Avatar Logo" style="width:50px;" class="rounded-pill">&emsp; Lupu Ioan-Cristian</a>
+			
+        	<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+          	<span class="navbar-toggler-icon"></span>
+        	</button>
+			
+			<div class="collapse navbar-collapse" id="collapsibleNavbar">
+				<ul class="navbar-nav">
+					<li class="nav-item">
+						<a class="nav-link" href="index_ro.html">Acasă</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link active" href="galerie.html">Galerie</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="cv.html">CV</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="contact.html">Contact</a>
+					</li>
+					
+					
+					<li class="nav-item dropdown">
+					  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+						<img src="Images/f1.jpg" alt="RO Flag" style="width:40px;" class="rounded-pill">
+					  </a>
+					  <ul class="dropdown-menu dropdown-menu-dark" >
+						<li><a class="dropdown-item" href="index_ro.html"><img src="Images/f1.jpg" alt="RO Flag" style="width:40px;" class="rounded-pill"></a></li>
+<!--						<li class="divider"></li>-->
+						<li><a class="dropdown-item" href="index_en.html"><img src="Images/3.png" alt="EN Flag" style="width:40px;" class="rounded-pill"></a></li>
+					  </ul>
+					</li>
+    			</ul>
+			</div>
+ 		</div>
+	</nav>
+	
+	<body>
+	 
+
+	  <div class="container">
+		  <div class="lightboxgallery-gallery clearfix">
+			<a class="lightboxgallery-gallery-item" target="_blank" href="Images/p11.jpg" data-alt="poza1">
+			  <div>
+				<img src="Images/p11.jpg" title="poza1" alt="poza1">
+			  </div>
+			</a>
+			<a class="lightboxgallery-gallery-item" target="_blank" href="Images/p5.jpg" data-alt="poza2">
+			  <div>
+				<img src="Images/p5.jpg" title="poza2" alt="poza2">
+			  </div>
+			</a>
+			<a class="lightboxgallery-gallery-item" target="_blank" href="Images/p6.jpg" data-alt="poza3">
+			  <div>
+				<img src="Images/p6.jpg" title="poza3" alt="poza3">
+			  </div>
+			</a>
+			<a class="lightboxgallery-gallery-item" target="_blank" href="Images/p2.jpg" data-alt="poza4">
+			  <div>
+				<img src="Images/p2.jpg" title="poza4" alt="poza4">
+			  </div>
+			</a>
+			<a class="lightboxgallery-gallery-item" target="_blank" href="Images/p3.jpg" data-alt="poza5" >
+			  <div>
+				<img src="Images/p3.jpg" title="poza5" alt="poza5">
+			  </div>
+			</a>
+			<a class="lightboxgallery-gallery-item" target="_blank" href="Images/p7.jpg" data-alt="poza6" >
+			  <div>
+				<img src="Images/p7.jpg" title="poza6" alt="poza6">
+			  </div>
+			</a>
+			<a class="lightboxgallery-gallery-item" target="_blank" href="Images/p4.jpg" data-alt="poza7">
+			  <div>
+				<img src="Images/p4.jpg" title="poza7" alt="poza7">
+<!--
+				<div class="lightboxgallery-gallery-item-content">
+				  <span class="lightboxgallery-gallery-item-title">Comentariu</span>
+				</div>
+-->
+			  </div>
+			</a>
+			<a class="lightboxgallery-gallery-item" target="_blank" href="Images/p1.jpg" data-alt="poza8" >
+			  <div>
+				<img src="Images/p1.jpg" title="poza8" alt="poza8">
+			  </div>
+			</a>
+		</div>
+	  </div>
+
+		
+	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	  <script src="js/lightboxgallery-min.js"></script>
+	  <script type="text/javascript">
+		  
+		  jQuery(function($) {
+			$(document).on('click', '.lightboxgallery-gallery-item', function(event) {
+			  event.preventDefault();
+			  $(this).lightboxgallery({
+				showCounter: true,
+				showTitle: true,
+				showDescription: true
+			  });
+			});
+		  });
+		  
+	  </script>
+	</body>
+
+</html>

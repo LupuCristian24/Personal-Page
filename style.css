@@ -1,0 +1,59 @@
+body, html {
+  	height: 96.2%;
+}
+
+.bg {
+	height: 100%;
+  	background-image: url('Images/fundal.jpg');
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.bg1 {
+	height: 100.3%;
+  	background-image: url('Images/fundal1.jpg');
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.navbar-brand{
+	font-family: monospace;
+}
+.nav-link{
+	font-size: 20px;
+}
+
+/*
+.navbar-brand{
+	margin-right: 64.5%;
+}
+*/
+
+.dropdown-toggle{
+	margin-left: 45%;
+}
+
+.dropdown-menu-dark{
+	margin-left: 45%;
+	min-width: 3rem;
+}
+
+#text{
+  	font-size: 32px;
+	color: ghostwhite;
+	font-family: monospace;
+}
+#t1{
+	font-size: 50px;
+}
+#t2{
+	font-size: 40px;
+}
+
+.fa {
+  padding: 5px;
+  width: 25px;
+}
+.fa:hover {
+  opacity: 0.7;
+}
